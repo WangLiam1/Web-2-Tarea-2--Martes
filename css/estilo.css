@@ -1,0 +1,110 @@
+.contenedor{
+    background-color: coral;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    /*flex-direction: row ;
+    width: 500px;
+    height: 500px;
+    flex-wrap: wrap;
+    align-content: space-around;  */
+}
+
+.con1 {
+    background-color: aqua;
+    margin: 5px;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center; 
+    width: 400px; 
+    height: 600px; 
+}
+
+
+.con2{
+    background-color: aqua;
+    margin: 5px;
+    width: 600px;
+    /*height: 100px;*/
+    font-size:40px ;
+    text-align: center;
+    
+    /*display: inline-block;*/
+    flex-grow: 5;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    
+}
+.con3{
+    background-color: aqua;
+    margin: 5px;
+    /*width: 150px;
+    height: 100px;*/
+    font-size:40px ;
+    text-align: center;
+    
+    /*display: inline-block;*/
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.caja1 {
+    background-color: rgb(170, 75, 75);
+    margin: 5px;
+    width: 150px; 
+    height: 260px; 
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+.caja2{
+    background-color: greenyellow;
+    margin: 5px;
+    width: 170px;
+    height: 170px;
+    font-size:40px ;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    /*display: inline-block;*/
+    
+    
+}
+.caja3{
+    background-color: yellowgreen;
+    margin: 5px;
+    width: 350px;
+    height: 70px;
+    font-size:40px ;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    /*display: inline-block;*/
+    
+    
+}
+.caja4{
+    background-color: yellowgreen;
+    margin: 5px;
+    width: 150px;
+    height: 200px;
+    font-size:40px ;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    /*display: inline-block;*/
+    
+    
+}
